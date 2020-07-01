@@ -1,0 +1,62 @@
+// 公共样式
+* {
+	box-sizing: border-box;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.violet {
+	color: #7397ff;
+}
+
+.orange {
+	color: #ffcb5e;
+}
+
+.mt5 {
+	margin-top: 5px !important;
+}
+
+.clearfix {
+	&::after {
+		content: "";
+		display: block;
+		height: 0;
+		line-height: 0;
+		visibility: hidden;
+		clear: both;
+	}
+	
+	&::after {
+		zoom: 1;
+	}
+}
+
+.red {
+	color: #ff766b !important;
+}
+
+$green: #01DC4F;
+
+.display-ib {
+	display: inline-block;
+}
+
+.va-top {
+	vertical-align: top;
+}
+
+uni-checkbox.checkbox {
+	.uni-checkbox-input {
+		width:24px;
+		height:24px;
+		border-radius:50%;
+		border:1px solid $green;
+	}
+}
